@@ -158,9 +158,10 @@ case ${codename} in
     smbOptions="${smbOptions}\nwrite cache size = 524288"
     ;;
   bullseye)
-    keys="0E98404D386FA1D9 A48449044AAD5C5D"
-    omvCodename="shaitan"
-    version=6
+    keys="648ACFD622F3D138 112695A0E562B32A"
+    omvCodename="usul"
+    version=5
+    smbOptions="${smbOptions}\nwrite cache size = 524288"
     ;;
   *)
     echo "Unsupported version.  Only Debian 10 (Buster) and 11 (Bullseye) are supported.  Exiting..."
